@@ -31,12 +31,12 @@ dev = [
 
 [project.urls]
 
-bugs = "https://github.com/denironyx/addressiq/issues"
-changelog = "https://github.com/denironyx/addressiq/blob/master/changelog.md"
-homepage = "https://github.com/denironyx/addressiq"
+bugs = "https://github.com/unpatterned-labs/addressiq/issues"
+changelog = "https://github.com/unpatterned-labs/addressiq/blob/master/changelog.md"
+homepage = "https://github.com/unpatterned-labs/addressiq"
 
 [tool.setuptools]
-package-dir = {"" = "src"}
+package-dir = {"addressiq" = "addressiq"}
 
 [tool.setuptools.package-data]
 "*" = ["*.*"]
